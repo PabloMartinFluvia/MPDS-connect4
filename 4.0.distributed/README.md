@@ -1,4 +1,4 @@
-# game-conecta4.4.0.distributed
+# game-connect4.4.0.distributed
 Universo Santa Tecla  
 [uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
   
@@ -21,15 +21,15 @@ Universo Santa Tecla
 
 ### requirements 
 
-| [Wiki](https://es.wikipedia.org/wiki/Conecta_4) - [Youtube](https://www.youtube.com/watch?v=JBSbiilzg9U)<br/> * _Funcionalidad: **Básica + Undo/Redo**_<br/>  * _Interfaz: **Gráfica y Texto**_<br/>  * _Distribución: **Standalone + Client/Server**_<br/>  * _Persistencia: **No**_<br/> | ![conecta4](./docs/images/conecta4.jpg) | 
+| [Wiki](https://es.wikipedia.org/wiki/Conecta_4) - [Youtube](https://www.youtube.com/watch?v=JBSbiilzg9U)<br/> * _Funcionalidad: **Básica + Undo/Redo**_<br/>  * _Interfaz: **Gráfica y Texto**_<br/>  * _Distribución: **Standalone + Client/Server**_<br/>  * _Persistencia: **No**_<br/> | ![connect4](./docs/images/conecta4.jpg) | 
 | :------- | :------: |  
 
 ### actorsUseCaseDiagram
 
-![conecta4]() 
+![connect4]() 
 
 ### useCaseContextDiagram
-![conecta4]()   
+![connect4]()   
 
 ### useCaseSpecification
 

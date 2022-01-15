@@ -1,4 +1,4 @@
-# game-conecta4.1.0.basic
+# game-connect4.1.0.basic
 Universo Santa Tecla  
 [uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
   
@@ -15,7 +15,7 @@ Universo Santa Tecla
 
 ### requirements 
 
-* _glosary: **[conecta4](../README.md)**_
+* _glosary: **[connect4](../README.md)**_
 * _functionality: **basic**_
 * _interface: **console**_
 * _distribution: **standalone**_
@@ -23,11 +23,11 @@ Universo Santa Tecla
 
 ### actorsUseCaseDiagram
 
-![conecta4]()
+![connect4]()
 
 ### useCaseContextDiagram
 
-![conecta4]()
+![connect4]()
 
 ### useCaseSpecification
 

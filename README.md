@@ -1,4 +1,4 @@
-# Conecta4
+# Connect4
 Universo Santa Tecla  
 [uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
 
@@ -22,7 +22,7 @@ Universo Santa Tecla
 
 ## domainModel  
   
-![conecta4](./docs/images/klondike.jpg)  
+![connect4](./docs/images/klondike.jpg)  
 
 [WIKI](https://es.wikipedia.org/wiki/Conecta_4)
 

@@ -1,4 +1,4 @@
-# game-conecta4.2.0.graphics
+# game-connect4.2.0.graphics
 Universo Santa Tecla  
 [uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
   
@@ -21,16 +21,16 @@ Universo Santa Tecla
 
 ### requirements  
 
-| [Wiki](https://es.wikipedia.org/wiki/Conecta_4) - [Youtube](https://www.youtube.com/watch?v=JBSbiilzg9U)<br/> * _Funcionalidad: **Básica**_<br/>  * _Interfaz: **Gráfica y Texto**_<br/>  * _Distribución: **Standalone**_<br/>  * _Persistencia: **No**_<br/> | ![conecta4](./docs/images/conecta4.jpg) | 
+| [Wiki](https://es.wikipedia.org/wiki/Conecta_4) - [Youtube](https://www.youtube.com/watch?v=JBSbiilzg9U)<br/> * _Funcionalidad: **Básica**_<br/>  * _Interfaz: **Gráfica y Texto**_<br/>  * _Distribución: **Standalone**_<br/>  * _Persistencia: **No**_<br/> | ![connect4](./docs/images/conecta4.jpg) | 
 | :------- | :------: |  
 
 ### actorsUseCaseDiagram 
 
-![conecta4]()
+![connect4]()
 
 ### useCaseContextDiagram
 
-![conecta4]() 
+![connect4]() 
 
 ### useCaseSpecification
 
@@ -55,7 +55,7 @@ Universo Santa Tecla
 
 | Pantallas | Diálogos |
 |---|---|
-| ![conecta4]() | ![conecta4]() |
+| ![connect4]() | ![connect4]() |
 
 #### Consola
 

@@ -1,4 +1,4 @@
-# game-conecta4.3.0.undoRedo
+# game-connect4.3.0.undoRedo
 Universo Santa Tecla  
 [uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
   
@@ -18,15 +18,15 @@ Universo Santa Tecla
 
 ### requirements 
 
-| * _Funcionalidad: **Básica + Undo/Redo**_<br/>  * _Interfaz: **Gráfica y Texto**_<br/>  * _Distribución: **Standalone**_<br/>  * _Persistencia: **No**_<br/> | ![conecta4](../docs/images/conecta4.png) | 
+| * _Funcionalidad: **Básica + Undo/Redo**_<br/>  * _Interfaz: **Gráfica y Texto**_<br/>  * _Distribución: **Standalone**_<br/>  * _Persistencia: **No**_<br/> | ![connect4](../docs/images/conecta4.png) | 
 | :------- | :------: |  
 
 ### actorsUseCaseDiagram  
 
-![conecta4]() 
+![connect4]() 
 ### useCaseContextDiagram
 
-![conecta4]()  
+![connect4]()  
 
 ### useCaseSpecification
 
