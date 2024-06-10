@@ -1,0 +1,27 @@
+[
+  {
+    "color" : "X",
+    "row" : 1,
+    "column" : 4
+  },
+  {
+    "color" : "O",
+    "row" : 1,
+    "column" : 5
+  },
+  {
+    "color" : "X",
+    "row" : 1,
+    "column" : 3
+  },
+  {
+    "color" : "O",
+    "row" : 2,
+    "column" : 5
+  },
+  {
+    "color" : "X",
+    "row" : 2,
+    "column" : 5
+  }
+]

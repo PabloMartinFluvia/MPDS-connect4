@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<movments>
+    <put color="red" row="1" column="5"/>
+    <put color="yellow" row="1" column="6"/>
+    <put color="red" row="2" column="5"/>
+    <put color="yellow" row="1" column="1"/>
+    <!-- more movements -->
+</movments>
+

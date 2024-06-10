@@ -2,5 +2,6 @@
 Universo Santa Tecla  
 [uSantaTecla@gmail.com](mailto:uSantaTecla@gmail.com)  
   
-## requirements 
+## requirements
+Hacer la historia de una partida de Conecta4 en los lenguajes XML, JSON y Yaml.
 
