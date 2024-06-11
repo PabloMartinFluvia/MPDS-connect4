@@ -29,21 +29,21 @@ Universo Santa Tecla
 [Youtube](https://www.youtube.com/watch?v=JBSbiilzg9U)
 ### vocabulary
 
-![Vocabulario]()  
+![Vocabulario](./docs/diagrams/out/overview/overview.svg)  
   
 ### initialState  
   
-![Estado_inicial]()  
+![Estado_inicial](./docs/diagrams/out/states/initialState.svg)  
   
 ### finalState 
 
-![Estado_final]()  
+![Estado_final](./docs/diagrams/out/states/finalState.svg)  
   
 ### instructions  
   
-![Instrucciones]()  
+![Instrucciones](./docs/diagrams/out/rules/rulesState.svg)  
   
-![Instrucciones]()  
+![Instrucciones](./docs/diagrams/out/rules/rulesActivity.svg)  
   
 ## versions  
   
