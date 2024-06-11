@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Connect4 Game</title>
+    <meta charset="UTF-8"/>
+</head>
+
+<body>
+
+    <div>
+        Editar valor con javascript i dar estilo con css<br>
+        <h2>Turn: Player X</h2>
+    </div>
+
+    <!-- opcion 1-->
+    <div>
+        Una tabla donde el jugador pincha en qué casilla quiere colocar la ficha?<br/>
+        Con CSS hacer los botones transparentes.<br/>
+        Y con javascript habilitar solo los botones de las casillas en las que se pueda poner una ficha<br/>
+        action y method en el form? Tipo de boton?<br/>
+        <table>
+            <tr>
+                <td> <form><input type="submit" value="1,1"></form></td>
+                <td> <form><input type="submit" value="1,2"></form></td>
+                <td> <form><input type="submit" value="1,3"></form></td>
+                <td> <form><input type="submit" value="1,4"></form></td>
+                <td> <form><input type="submit" value="1,5"></form></td>
+                <td> <form><input type="submit" value="1,6"></form></td>
+                <td> <form><input type="submit" value="1,7"></form></td>
+            </tr>
+            <tr>
+                <td> <form><input type="submit" value="2,1"></form></td>
+                <td> <form><input type="submit" value="2,2"></form></td>
+                <td> <form><input type="submit" value="2,3"></form></td>
+                <td> <form><input type="submit" value="2,4"></form></td>
+                <td> <form><input type="submit" value="2,5"></form></td>
+                <td> <form><input type="submit" value="2,6"></form></td>
+                <td> <form><input type="submit" value="2,7"></form></td>
+            </tr>
+            <tr>
+                <td> <form><input type="submit" value="3,1"></form></td>
+                <td> <form><input type="submit" value="3,2"></form></td>
+                <td> <form><input type="submit" value="3,3"></form></td>
+                <td> <form><input type="submit" value="3,4"></form></td>
+                <td> <form><input type="submit" value="3,5"></form></td>
+                <td> <form><input type="submit" value="3,6"></form></td>
+                <td> <form><input type="submit" value="3,7"></form></td>
+            </tr>
+            <tr>
+                <td> <form><input type="submit" value="4,1"></form></td>
+                <td> <form><input type="submit" value="4,2"></form></td>
+                <td> <form><input type="submit" value="4,3"></form></td>
+                <td> <form><input type="submit" value="4,4"></form></td>
+                <td> <form><input type="submit" value="4,5"></form></td>
+                <td> <form><input type="submit" value="4,6"></form></td>
+                <td> <form><input type="submit" value="4,7"></form></td>
+            </tr>
+            <tr>
+                <td> <form><input type="submit" value="5,1"></form></td>
+                <td> <form><input type="submit" value="5,2"></form></td>
+                <td> <form><input type="submit" value="5,3"></form></td>
+                <td> <form><input type="submit" value="5,4"></form></td>
+                <td> <form><input type="submit" value="5,5"></form></td>
+                <td> <form><input type="submit" value="5,6"></form></td>
+                <td> <form><input type="submit" value="5,7"></form></td>
+            </tr>
+            <tr>
+                <td> <form><input type="submit" value="6,1"></form></td>
+                <td> <form><input type="submit" value="6,2"></form></td>
+                <td> <form><input type="submit" value="6,3"></form></td>
+                <td> <form><input type="submit" value="6,4"></form></td>
+                <td> <form><input type="submit" value="6,5"></form></td>
+                <td> <form><input type="submit" value="6,6"></form></td>
+                <td> <form><input type="submit" value="6,7"></form></td>
+            </tr>
+        </table>
+    </div>
+
+    <br><!-- para separar opciones-->
+
+    <!-- opcion 2-->
+    <div>
+        Hacer una tabla con todas las casillas vacías (y dar estilo con css).<br>
+        Hacer un formulario donde el usuario pueda indicar fila y columna.<br>
+        Con javascript limitar los valores de las coordenadas, en función de si se puede poner en esa casilla.<br>
+        Action y method del form?<br>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <form method="post">
+            <fieldset> <!-- para agrupar un conjunto de entradas-->
+                <legend>Target square</legend>
+                <label for="row">Row:</label>
+                <input
+                        id="row"
+                        type="number"
+                        name="row"
+                        min="1"
+                        max="6"
+                />
+                <br />
+                <label for="column">Column:</label>
+                <input
+                        id="column"
+                        type="number"
+                        name="column"
+                        min="1"
+                        max="7"
+                />
+                <br />
+            </fieldset>
+            <input type="submit" name="put" value="Put Token" />
+            <input type="reset" name="rest" value="Reset Coordinates" />
+        </form>
+    </div>
+
+   <!-- para volver al home-->
+    <br>
+
+    <!-- opcion 1-->
+    <div>
+        Volver con un enlaze a la página del home?<br>
+        Sin decirle nada al servidor?<br>
+        <a href="home.html" target="_self">Back to home</a>
+    </div>
+
+    <br><!-- para separar opciones-->
+
+    <!-- opcion 2-->
+    <div>
+        Volver al home con un botón (submit) para decirle al servidor que borre la partida?<br>
+        Action del formulario? Método GET? Tipo de boton?
+        <form>
+
+            <input type="submit" name="back_to_home" value="Back to home"/>
+        </form>
+    </div>
+
+</body>
+
+</html>

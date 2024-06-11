@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Instructions</title>
+    <meta charset="UTF-8"/>
+</head>
+
+<body>
+
+    <main>
+        <h1>How to play</h1>
+        <section>
+            <article>
+                <h2>Goal:</h2>
+                <p>The winner is the first player who <mark>put 4 tokens consecutives:</mark></p>
+                <ul>
+                    <li>In horizonal (same row)</li>
+                    <li>In vertical (same column)</li>
+                    <li>In diagonal (+1 row and +1 column each)</li>
+                    <li>In diagonal inverse (-1 row and +1 column each)</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Game rules:</h2>
+                <ul>
+                    <li>Any player must put one token each turn.</li>
+                    <li>Game ends if:
+                        <ul>
+                            <li>A player wins (goal achived).</li>
+                            <li>Tie: the board is full.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <h2>Put token rules:</h2>
+                A token can be put in <b>any empty square</b> that meets <b>one</b> of the following requirements:
+                <ul>
+                    <li>Is in the bottom row.</li>
+                    <li>The square just below (same column, -1 row) already has a token on it.</li>
+                </ul>
+            </article>
+            <details>
+                <summary>Instructions diagram</summary>
+                <img src="../../../docs/diagrams/out/rules/rulesState.svg">
+            </details>
+        </section>
+        <a href="home.html" target="_self">Back to home</a>
+    </main>
+
+</body>
+
+</html>
